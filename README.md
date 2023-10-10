@@ -31,9 +31,9 @@ A web-based Telegram bot built with a modern tech stack.
    ```
 
 3. Run migrations
-  ```bash
-  npx --workspace api mikro-orm migration:up
-  ```
+   ```bash
+   npx --workspace api mikro-orm migration:up
+   ```
 
 3. Start the development server:
    ```bash
