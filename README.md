@@ -27,7 +27,7 @@ A web-based Telegram bot built with a modern tech stack.
 
 2. Install the dependencies:
    ```bash
-   npm ci
+   npm i
    ```
 
 3. Optional. Initialize postgresql database:
@@ -42,7 +42,7 @@ A web-based Telegram bot built with a modern tech stack.
 
 5. Start the development server:
    ```bash
-   turbo run dev
+   npm run dev
    ```
 
 The app should now be running on your local machine.

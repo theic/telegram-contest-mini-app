@@ -44,8 +44,6 @@ export class TelegramHandler {
   @On('video')
   async onVideo(@Ctx() ctx: Scenes.SceneContext) {
     const { message } = ctx;
-
-    console.log(message['file_name']);
     
     await this.processVideo(ctx, {
       fileId: message['video']['file_id'],

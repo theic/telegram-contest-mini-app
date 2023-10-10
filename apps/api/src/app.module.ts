@@ -1,6 +1,4 @@
 import { Module } from '@nestjs/common';
-import { AppController } from './app.controller';
-import { AppService } from './app.service';
 import { ServeStaticModule } from '@nestjs/serve-static';
 import { join } from 'path';
 import { ConfigModule } from "@nestjs/config";
@@ -26,7 +24,5 @@ import serverConfig from './config/server';
     BotModule,
     DbModule,
   ],
-  controllers: [AppController],
-  providers: [AppService],
 })
 export class AppModule {}

@@ -41,7 +41,7 @@ export class Project {
     this.outputVideoUrl = outputVideoUrl;
     this.outputAudioUrl = outputAudioUrl;
 
-    // this.assertUrl();
+    this.assertUrl();
   }
 
   private assertUrl() {
@@ -51,7 +51,5 @@ export class Project {
     ) {
       throw new Error('Invalid URL or MIME type not supported');
     }
-
-    console.log(this.link);
   }
 }
