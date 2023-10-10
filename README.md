@@ -23,8 +23,8 @@ Demo: [@TrimTasticBot](https://t.me/TrimTasticBot)
 
 1. Clone the repository:
    ```bash
-   git clone [repository-url] telegram-contest-mini-app-theic
-   cd telegram-web-app
+   git clone https://github.com/theic/telegram-contest-mini-app.git telegram-contest-mini-app
+   cd telegram-contest-mini-app
    ```
 
 2. Install the dependencies:
