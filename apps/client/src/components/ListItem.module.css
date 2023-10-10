@@ -1,0 +1,30 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  padding: 16px;
+  transition: transform 0.3s ease, height 0.3s ease, opacity 0.3s ease;
+  will-change: transform, height, opacity;
+  color: var(--tg-theme-text-color);
+  background-color: var(--tg-theme-secondary-bg-color);
+}
+
+.item:after {
+  content: '';
+  width: 75%;
+  height: 1px;
+  background-color: var(--tg-theme-bg-color);
+  position: absolute;
+  left: 25%;
+  bottom: 0;
+}
+
+.timeColumn {
+  color: var(--tg-theme-hint-color);
+  width: 25%;
+}
+
+.textColumn {
+  color: var(--tg-theme-text-color);
+  flex: 1;
+  margin-left: 10px;
+}
