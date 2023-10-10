@@ -30,12 +30,17 @@ A web-based Telegram bot built with a modern tech stack.
    npm ci
    ```
 
-3. Run migrations
+3. Optional: initialize postgresql database:
+   ```bash
+   docker-compose up -d
+   ```
+
+4. Run migrations
    ```bash
    npx --workspace api mikro-orm migration:up
    ```
 
-3. Start the development server:
+5. Start the development server:
    ```bash
    turbo run dev
    ```

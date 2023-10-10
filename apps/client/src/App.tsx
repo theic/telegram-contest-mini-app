@@ -129,7 +129,7 @@ export default function App() {
         setItems(initialItems);
         return;
       }
-      const response = await axios(`https://cp5pk2c3-5173.euw.devtunnels.ms/api/projects/${projectId}`);
+      const response = await axios(`/api/projects/${projectId}`);
       setItems(response.data.map((item: any, index: number) => ({
         id: index,
         start: formatDuration(item.start),
