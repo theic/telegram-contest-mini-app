@@ -30,7 +30,7 @@ A web-based Telegram bot built with a modern tech stack.
    npm ci
    ```
 
-3. Optional: initialize postgresql database:
+3. Optional. Initialize postgresql database:
    ```bash
    docker-compose up -d
    ```
