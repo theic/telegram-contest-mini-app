@@ -2,6 +2,8 @@
 
 A web-based Telegram bot built with a modern tech stack.
 
+Demo: [@TrimTasticBot](https://t.me/TrimTasticBot)
+
 ## Tech Stack
 
 - **Backend**: [NestJS](https://nestjs.com/)
